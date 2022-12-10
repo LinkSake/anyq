@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.description = 'A gem that prints a random quote form a collection'
   s.authors     = ['Luis Angel Ortega']
   s.email       = 'hey@luisangel.me'
-  s.files       = ['lib/anyq.rb']
+  s.files       = ['lib/anyq.rb', 'lib/quotes.json']
   s.homepage    = 'https://github.com/LinkSake/anyq'
   s.license     = 'GPL-3.0-or-later'
 end

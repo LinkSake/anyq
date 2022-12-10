@@ -33,7 +33,7 @@ OptionParser.new do |opts|
   end
 end.parse!
 
-quotes_file = File.read('./quotes.json')
+quotes_file = File.read('./lib/quotes.json')
 quotes = JSON.parse(quotes_file)
 
 if options[:new_quote]
